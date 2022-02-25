@@ -10,8 +10,13 @@ rel="stylesheet">
             
         </head>
         <body>
-            <header>
-                <h1><a href="{% url 'home' %}">HOME PAGE</a></h1>
+            <header style="">
+                <div class="nav-left">
+                    <h1><a href="{% url 'home' %}">HOME PAGE</a></h1>
+                </div>
+                <div class="nav-right">
+                    <a href="{% url 'post_new' %}">+Creat Post</a>
+                </div>
             </header>
 
             <div>
